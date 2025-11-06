@@ -1,0 +1,25 @@
+    .inputGroup {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .inputGroup input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+
+    .inputGroup button {
+        padding: 10px 15px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    }
+
+    .inputGroup button:hover {
+        background-color: #0056b3;
+    }

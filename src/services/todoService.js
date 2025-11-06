@@ -3,13 +3,13 @@ export function createTodo(todos, newTodo) {
 }
 
 export function updateTodo(todos, idx, newText) {
-    return todos.map((t) => {
-        t.idx == idx ? {...t, text:newText} : t
-    });
+    return todos.map((t) => 
+        t.idx === idx ? {...t, text:newText} : t
+    );
 }
 
 export function delTodo(todos, idx) {
-    return todos.filter((t) => {
+    return todos.filter((t) => 
         t.idx !== idx
-    })
+    );
 }
